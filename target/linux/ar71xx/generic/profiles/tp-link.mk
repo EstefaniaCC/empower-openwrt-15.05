@@ -366,8 +366,8 @@ $(eval $(call Profile,TLWR1041))
 
 
 define Profile/TLWR1043
-	NAME:=TP-LINK TL-WR1043N/ND
-	PACKAGES:=kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev
+	NAME:=TP-LINK TL-WR1043N/ND (EmPOWER)
+	PACKAGES:=kmod-usb-core kmod-usb2 kmod-ledtrig-usbdev empower-lvap-agent openvswitch luci
 endef
 
 define Profile/TLWR1043/Description
