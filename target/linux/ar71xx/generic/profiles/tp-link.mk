@@ -311,8 +311,8 @@ $(eval $(call Profile,TLWR743))
 
 
 define Profile/TLWR841
-	NAME:=TP-LINK TL-WR841N/ND (EmPOWER)
-	PACKAGES:=empower-lvap-agent openvswitch luci
+	NAME:=TP-LINK TL-WR841N/ND
+	PACKAGES:=
 endef
 
 define Profile/TLWR841/Description
