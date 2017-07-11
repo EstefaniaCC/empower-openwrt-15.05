@@ -18,8 +18,8 @@ $(eval $(call Profile,R6100))
 
 
 define Profile/WNDR4300
-	NAME:=NETGEAR WNDR3700v4/WNDR4300
-	PACKAGES:=kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-ledtrig-usbdev
+	NAME:=NETGEAR WNDR3700v4/WNDR4300 (EmPOWER)
+	PACKAGES:=kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-ledtrig-usbdev empower-lvap-agent openvswitch luci
 endef
 
 define Profile/WNDR4300/Description
